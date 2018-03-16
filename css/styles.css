@@ -1,3 +1,4 @@
+
 .logo {
   max-width: 50px;
   margin-top: -15px;
@@ -11,6 +12,12 @@
   background: rgba(96, 96, 96, .5);
   color: white;
   line-height: 800px;
+}
+.container {
+    width: 70%;
+}
+.container p {
+  font-size: 120%;
 }
 
 .main-footer {
@@ -28,16 +35,22 @@
 .float-left {
   float: left;
 }
+div.polaroid {
+    background-color: white;
+  margin: 10px 10px 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .polaroid img {
   width: 100%;
   max-width: 300px;
 }
 .polaroid p {
+  margin: 5px 2px 5px 2px;
   text-align: center;
   font-style: italic;
 }
 .biography {
-  width: 60%;
+  font-size: 120%;
   margin: 0 auto 0 auto;
 }
 
