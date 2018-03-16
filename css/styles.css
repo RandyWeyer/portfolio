@@ -1,5 +1,6 @@
 .logo {
   max-width: 50px;
+  margin-top: -15px;
 }
 .parallax-text {
   width: 100%;
@@ -21,7 +22,24 @@
 .parallax-window {
   height: 800px;
 }
-
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.polaroid img {
+  width: 100%;
+  max-width: 300px;
+}
+.polaroid p {
+  text-align: center;
+  font-style: italic;
+}
+.biography {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
 
 @media screen and (max-width: 550px) {
    .parallax-text {
