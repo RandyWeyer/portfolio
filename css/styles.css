@@ -1,0 +1,39 @@
+.logo {
+  max-width: 50px;
+}
+.parallax-text {
+  width: 100%;
+  text-align: center;
+  margin: auto, auto, auto, auto;
+  justify-content: center;
+  align-items: center;
+  background: rgba(96, 96, 96, .5);
+  color: white;
+  line-height: 800px;
+}
+
+.main-footer {
+    background-color: #2f2f2f;
+    color: #eee;
+    height: 110px;
+    line-height: 100px;
+}
+.parallax-window {
+  height: 800px;
+}
+
+
+@media screen and (max-width: 550px) {
+   .parallax-text {
+     display: none;
+   }
+   .parallax-window {
+     height: 400px;
+   }
+   .main-footer {
+       background-color: #2f2f2f;
+       color: #eee;
+       height: 50px;
+       line-height: 40px;
+   }
+}
