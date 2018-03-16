@@ -12,6 +12,10 @@ body h2 {
   max-width: 50px;
   margin-top: -15px;
 }
+.jumbotron {
+  background-color: #2f2f2f;
+  color: #eee;
+}
 .parallax-text {
   width: 100%;
   text-align: center;
@@ -86,6 +90,8 @@ div.polaroid {
 }
 .panel-heading {
   font-size: 150%;
+  background-color: #2f2f2f;
+  color: #eee;
 }
 
 @media screen and (max-width: 550px) {
